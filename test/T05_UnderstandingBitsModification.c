@@ -20,6 +20,13 @@ int main() {
     unsigned int bit = (y >> 2) & 1;
     printf("2nd bit of y is: %u\n", bit);
 
+    // print bits of x:
+    printf("Bits of x: %08b\n", x);
+
+    // combine bits of x and y:
+    unsigned int z = x | y;
+    printf("Bits of z (x | y): %08b\n", z);
+
     return 0;
 }
 
